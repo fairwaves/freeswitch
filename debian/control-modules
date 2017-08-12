@@ -596,7 +596,7 @@ Build-Depends: libperl-dev
 Module: languages/mod_python
 Description: mod_python
  Adds mod_python.
-Build-Depends: python-dev
+Build-Depends: python-dev, swig
 
 Module: languages/mod_v8
 Description: mod_v8
