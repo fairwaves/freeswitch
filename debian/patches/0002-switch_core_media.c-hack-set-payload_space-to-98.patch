@@ -1,0 +1,15 @@
+--- freeswitch.orig/src/switch_core_media.c	2015-11-17 16:40:40.000000000 +0300
++++ freeswitch/src/switch_core_media.c	2017-08-03 19:02:31.707809824 +0300
+@@ -6393,9 +6393,9 @@
+ 	if (!smh->payload_space) {
+ 		int i;
+ 
+-		/* it could be 98 but chrome reserves 98 and 99 for some internal stuff even though they should not.  
+-		   Everyone expects dtmf to be at 101 and Its not worth the trouble so we'll start at 102 */
+-		smh->payload_space = 102;
++		/* HACK: LCR and osmo-nitb don't support RTP Dynamic Payload Numbers and use 98 for AMR,
++		   so we should use 98 for payload_space to be able to set it for AMR. */
++		smh->payload_space = 98;
+ 
+ 		for (i = 0; i < smh->mparams->num_codecs; i++) {
+ 			smh->ianacodes[i] = smh->codecs[i]->ianacode;
