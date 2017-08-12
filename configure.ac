@@ -1227,7 +1227,7 @@ PKG_CHECK_MODULES([MEMCACHED], [libmemcached >= 0.31],[
   AM_CONDITIONAL([HAVE_MEMCACHED],[false])
 ])
 
-PKG_CHECK_MODULES([AMQP], [librabbitmq >= 0.5.2],[
+PKG_CHECK_MODULES([AMQP], [librabbitmq >= 0.4.1],[
   AM_CONDITIONAL([HAVE_AMQP],[true])],[
   AC_MSG_RESULT([no]); AM_CONDITIONAL([HAVE_AMQP],[false])])
 
