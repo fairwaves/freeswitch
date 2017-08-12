@@ -6393,9 +6393,9 @@ SWITCH_DECLARE(void) switch_core_media_gen_local_sdp(switch_core_session_t *sess
 	if (!smh->payload_space) {
 		int i;
 
-		/* it could be 98 but chrome reserves 98 and 99 for some internal stuff even though they should not.  
-		   Everyone expects dtmf to be at 101 and Its not worth the trouble so we'll start at 102 */
-		smh->payload_space = 102;
+		/* HACK: LCR and osmo-nitb don't support RTP Dynamic Payload Numbers and use 98 for AMR,
+		   so we should use 98 for payload_space to be able to set it for AMR. */
+		smh->payload_space = 98;
 
 		for (i = 0; i < smh->mparams->num_codecs; i++) {
 			smh->ianacodes[i] = smh->codecs[i]->ianacode;

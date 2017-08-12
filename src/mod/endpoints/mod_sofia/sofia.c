@@ -1510,6 +1510,7 @@ static void our_sofia_event_callback(nua_event_t event,
 		sofia_handle_sip_i_info(nua, profile, nh, session, sip, de, tags);
 		break;
 	case nua_i_update:
+		sofia_set_flag(tech_pvt, TFLAG_MODIFY_RTP);
 		break;
 	case nua_r_update:
 		if (session && tech_pvt && locked) {
@@ -6672,6 +6673,10 @@ static void sofia_handle_sip_i_state(switch_core_session_t *session, int status,
 				//	switch_core_media_set_sdp_codec_string(session, r_sdp, status < 200 ? SDP_TYPE_REQUEST : SDP_TYPE_RESPONSE);
 				//}
 
+				if (sofia_test_flag(tech_pvt, TFLAG_MODIFY_RTP)) {
+					switch_core_media_proxy_remote_addr(session, r_sdp);
+					sofia_clear_flag(tech_pvt, TFLAG_MODIFY_RTP);
+				}
 				sofia_glue_pass_sdp(tech_pvt, (char *) r_sdp);
 				sofia_set_flag(tech_pvt, TFLAG_NEW_SDP);
 
