@@ -1,0 +1,4 @@
+#### Do not edit!  This file is auto-generated from debian/bootstrap.sh.
+
+/usr/lib/freeswitch/mod/mod_managed.so
+/usr/lib/freeswitch/mod/FreeSWITCH.Managed.dll

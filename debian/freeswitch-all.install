@@ -1,0 +1,168 @@
+conf/curl /usr/share/freeswitch/conf
+conf/insideout /usr/share/freeswitch/conf
+conf/minimal /usr/share/freeswitch/conf
+conf/rayo /usr/share/freeswitch/conf
+conf/sbc /usr/share/freeswitch/conf
+conf/softphone /usr/share/freeswitch/conf
+conf/vanilla /usr/share/freeswitch/conf
+conf/vanilla/lang/de /usr/share/freeswitch/lang
+conf/vanilla/lang/en /usr/share/freeswitch/lang
+conf/vanilla/lang/es /usr/share/freeswitch/lang
+conf/vanilla/lang/fr /usr/share/freeswitch/lang
+conf/vanilla/lang/he /usr/share/freeswitch/lang
+conf/vanilla/lang/pt /usr/share/freeswitch/lang
+conf/vanilla/lang/ru /usr/share/freeswitch/lang
+conf/vanilla/lang/sv /usr/share/freeswitch/lang
+/usr/lib/freeswitch/mod/mod_abstraction.so
+/usr/lib/freeswitch/mod/mod_avmd.so
+/usr/lib/freeswitch/mod/mod_bert.so
+/usr/lib/freeswitch/mod/mod_blacklist.so
+/usr/lib/freeswitch/mod/mod_callcenter.so
+/usr/lib/freeswitch/mod/mod_cidlookup.so
+/usr/lib/freeswitch/mod/mod_commands.so
+/usr/lib/freeswitch/mod/mod_conference.so
+/usr/lib/freeswitch/mod/mod_curl.so
+/usr/lib/freeswitch/mod/mod_db.so
+/usr/lib/freeswitch/mod/mod_directory.so
+/usr/lib/freeswitch/mod/mod_distributor.so
+/usr/lib/freeswitch/mod/mod_dptools.so
+/usr/lib/freeswitch/mod/mod_easyroute.so
+/usr/lib/freeswitch/mod/mod_enum.so
+/usr/lib/freeswitch/mod/mod_esf.so
+/usr/lib/freeswitch/mod/mod_esl.so
+/usr/lib/freeswitch/mod/mod_expr.so
+/usr/lib/freeswitch/mod/mod_fifo.so
+/usr/lib/freeswitch/mod/mod_fsk.so
+/usr/lib/freeswitch/mod/mod_fsv.so
+/usr/lib/freeswitch/mod/mod_hash.so
+/usr/lib/freeswitch/mod/mod_httapi.so
+/usr/lib/freeswitch/mod/mod_http_cache.so
+/usr/lib/freeswitch/mod/mod_ladspa.so
+/usr/lib/freeswitch/mod/mod_lcr.so
+/usr/lib/freeswitch/mod/mod_memcache.so
+/usr/lib/freeswitch/mod/mod_nibblebill.so
+/usr/lib/freeswitch/mod/mod_oreka.so
+/usr/lib/freeswitch/mod/mod_prefix.so
+/usr/lib/freeswitch/mod/mod_random.so
+/usr/lib/freeswitch/mod/mod_redis.so
+/usr/lib/freeswitch/mod/mod_rss.so
+/usr/lib/freeswitch/mod/mod_sms.so
+/usr/lib/freeswitch/mod/mod_snapshot.so
+/usr/lib/freeswitch/mod/mod_snipe_hunt.so
+/usr/lib/freeswitch/mod/mod_snom.so
+/usr/lib/freeswitch/mod/mod_sonar.so
+/usr/lib/freeswitch/mod/mod_soundtouch.so
+/usr/lib/freeswitch/mod/mod_spandsp.so
+/usr/lib/freeswitch/mod/mod_spy.so
+/usr/lib/freeswitch/mod/mod_stress.so
+/usr/lib/freeswitch/mod/mod_translate.so
+/usr/lib/freeswitch/mod/mod_valet_parking.so
+/usr/lib/freeswitch/mod/mod_vmd.so
+/usr/lib/freeswitch/mod/mod_voicemail.so
+/usr/lib/freeswitch/mod/mod_voicemail_ivr.so
+/usr/lib/freeswitch/mod/mod_flite.so
+/usr/lib/freeswitch/mod/mod_pocketsphinx.so
+/usr/lib/freeswitch/mod/mod_tts_commandline.so
+/usr/lib/freeswitch/mod/mod_unimrcp.so
+/usr/lib/freeswitch/mod/mod_amr.so
+/usr/lib/freeswitch/mod/mod_amrwb.so
+/usr/lib/freeswitch/mod/mod_b64.so
+/usr/lib/freeswitch/mod/mod_bv.so
+/usr/lib/freeswitch/mod/mod_celt.so
+/usr/lib/freeswitch/mod/mod_codec2.so
+/usr/lib/freeswitch/mod/mod_dahdi_codec.so
+/usr/lib/freeswitch/mod/mod_g723_1.so
+/usr/lib/freeswitch/mod/mod_g729.so
+/usr/lib/freeswitch/mod/mod_h26x.so
+/usr/lib/freeswitch/mod/mod_isac.so
+/usr/lib/freeswitch/mod/mod_mp4v.so
+/usr/lib/freeswitch/mod/mod_opus.so
+/usr/lib/freeswitch/mod/mod_silk.so
+/usr/lib/freeswitch/mod/mod_theora.so
+/usr/lib/freeswitch/mod/mod_vp8.so
+/usr/lib/freeswitch/mod/mod_dialplan_asterisk.so
+/usr/lib/freeswitch/mod/mod_dialplan_directory.so
+/usr/lib/freeswitch/mod/mod_dialplan_xml.so
+/usr/lib/freeswitch/mod/mod_ldap.so
+/usr/lib/freeswitch/mod/mod_alsa.so
+/usr/lib/freeswitch/mod/mod_dingaling.so
+/usr/lib/freeswitch/mod/mod_loopback.so
+/usr/lib/freeswitch/mod/mod_portaudio.so
+/usr/lib/freeswitch/mod/mod_rtc.so
+/usr/lib/freeswitch/mod/mod_rtmp.so
+/usr/lib/freeswitch/mod/mod_skinny.so
+/usr/lib/freeswitch/mod/mod_skypopen.so
+/usr/lib/freeswitch/mod/mod_sofia.so
+/usr/lib/freeswitch/mod/mod_verto.so
+/usr/lib/freeswitch/mod/mod_amqp.so
+/usr/lib/freeswitch/mod/mod_cdr_csv.so
+/usr/lib/freeswitch/mod/mod_cdr_mongodb.so
+/usr/lib/freeswitch/mod/mod_cdr_pg_csv.so
+/usr/lib/freeswitch/mod/mod_cdr_sqlite.so
+/usr/lib/freeswitch/mod/mod_erlang_event.so
+/usr/lib/freeswitch/mod/mod_event_multicast.so
+/usr/lib/freeswitch/mod/mod_event_socket.so
+/usr/lib/freeswitch/mod/mod_event_test.so
+/usr/lib/freeswitch/mod/mod_event_zmq.so
+/usr/lib/freeswitch/mod/mod_format_cdr.so
+/usr/lib/freeswitch/mod/mod_json_cdr.so
+/usr/lib/freeswitch/mod/mod_odbc_cdr.so
+/usr/lib/freeswitch/mod/mod_radius_cdr.so
+/usr/lib/freeswitch/mod/mod_rayo.so
+/usr/lib/freeswitch/mod/mod_snmp.so
+/usr/lib/freeswitch/mod/mod_local_stream.so
+/usr/lib/freeswitch/mod/mod_native_file.so
+/usr/lib/freeswitch/mod/mod_portaudio_stream.so
+/usr/lib/freeswitch/mod/mod_shell_stream.so
+/usr/lib/freeswitch/mod/mod_shout.so
+/usr/lib/freeswitch/mod/mod_sndfile.so
+/usr/lib/freeswitch/mod/mod_ssml.so
+/usr/lib/freeswitch/mod/mod_tone_stream.so
+/usr/lib/freeswitch/mod/mod_vlc.so
+/usr/lib/freeswitch/mod/mod_basic.so
+/usr/lib/freeswitch/mod/mod_java.so
+/usr/lib/freeswitch/mod/mod_lua.so
+/usr/lib/freeswitch/mod/mod_perl.so
+/usr/lib/freeswitch/mod/mod_python.so
+/usr/lib/freeswitch/mod/mod_v8.so
+/usr/lib/freeswitch/mod/mod_yaml.so
+/usr/lib/freeswitch/mod/mod_console.so
+/usr/lib/freeswitch/mod/mod_graylog2.so
+/usr/lib/freeswitch/mod/mod_logfile.so
+/usr/lib/freeswitch/mod/mod_syslog.so
+/usr/lib/freeswitch/mod/mod_say_de.so
+/usr/lib/freeswitch/mod/mod_say_en.so
+/usr/lib/freeswitch/mod/mod_say_es.so
+/usr/lib/freeswitch/mod/mod_say_es_ar.so
+/usr/lib/freeswitch/mod/mod_say_fa.so
+/usr/lib/freeswitch/mod/mod_say_fr.so
+/usr/lib/freeswitch/mod/mod_say_he.so
+/usr/lib/freeswitch/mod/mod_say_hr.so
+/usr/lib/freeswitch/mod/mod_say_hu.so
+/usr/lib/freeswitch/mod/mod_say_it.so
+/usr/lib/freeswitch/mod/mod_say_ja.so
+/usr/lib/freeswitch/mod/mod_say_nl.so
+/usr/lib/freeswitch/mod/mod_say_pl.so
+/usr/lib/freeswitch/mod/mod_say_pt.so
+/usr/lib/freeswitch/mod/mod_say_ru.so
+/usr/lib/freeswitch/mod/mod_say_sv.so
+/usr/lib/freeswitch/mod/mod_say_th.so
+/usr/lib/freeswitch/mod/mod_say_zh.so
+/usr/lib/freeswitch/mod/mod_posix_timer.so
+/usr/lib/freeswitch/mod/mod_timerfd.so
+/usr/lib/freeswitch/mod/mod_xml_cdr.so
+/usr/lib/freeswitch/mod/mod_xml_curl.so
+/usr/lib/freeswitch/mod/mod_xml_rpc.so
+/usr/lib/freeswitch/mod/mod_xml_scgi.so
+/usr/bin
+/usr/lib/libfreeswitch.so.*
+/usr/include
+/usr/lib/*.a
+/usr/lib/pkgconfig
+#DOCS#
+/lib/systemd/system/freeswitch.service
+conf/vanilla/autoload_configs/timezones.conf.xml /usr/share/freeswitch/tz
+/usr/share/freeswitch/grammar
+/usr/share/freeswitch/scripts/freeswitch.jar
+debian/tmp/usr/perl/freeswitch.pm /usr/lib/perl5
+debian/tmp/usr/perl/freeswitch.so /usr/lib/perl5/auto/freeswitch

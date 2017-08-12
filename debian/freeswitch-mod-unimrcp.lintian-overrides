@@ -1,0 +1,14 @@
+#### Do not edit!  This file is auto-generated from debian/bootstrap.sh.
+
+# The long file names are caused by appending the nightly information.
+# Since one of these packages will never end up on a Debian CD, the
+# related problems with long file names will never come up here.
+freeswitch-mod-unimrcp: package-has-long-file-name *
+
+# We're definitely not doing this.  Nothing in FreeSWITCH has a more
+# restrictive license than LGPL or MPL.
+freeswitch-mod-unimrcp: possible-gpl-code-linked-with-openssl
+
+# We're not in Debian (yet) so we don't have an ITP bug to close.
+freeswitch-mod-unimrcp: new-package-should-close-itp-bug
+
